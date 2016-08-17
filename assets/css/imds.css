@@ -1,0 +1,176 @@
+body{
+	background:#e9e9e9;
+	margin:0;
+	padding: 0;
+	font-family: arial;
+	font-size: 10pt;
+}
+
+.iedit{
+	cursor: pointer;
+	background:url("../images/pencil.png");
+	background-color: #C0C0C0;
+	background-repeat: no-repeat;
+	display:block;
+	width: 30px;
+	height: 20px;
+	border: solid 1px #aaa;
+}
+
+#edycja{
+	display: none;
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	background: green;
+}
+
+#imds_editform label, input,textarea{
+	display: block; 
+	z-index: 150;
+}
+
+#imds_editform input.text { 
+	margin-bottom:10px; 
+	margin-left: 200px; width:60%; 
+	z-index: 150;
+}
+
+#imds_editform textarea { 
+	margin-bottom:10px; 
+	margin-left: 200px; 
+	width:60%; 
+	z-index: 150;
+}
+fieldset { 
+	padding:0; 
+	border:0; 
+	margin-top:25px; 
+	z-index: 150; 
+}
+
+.ui-dialog .ui-state-error { 
+	padding: .3em; 
+	z-index: 150;
+}
+
+.validateTips { 
+	border: 1px solid transparent; 
+	padding: 0.3em; 
+}
+
+#imds_editform label {
+	float: left
+}
+
+#imds_editform select  {
+	display:block; 
+	width: 60%; 
+	margin-left: 200px; 
+	z-index: 150;
+}
+
+#rev{
+	background: #ececec
+}
+
+#imds_id{
+	background: #ececec
+}
+
+
+#loguj {
+	position:fixed;
+	text-align:right; 
+	top: 20px;
+	right: 25px;
+	padding: 10px; 
+	z-index: 100;			
+}
+#wyloguj {
+	position:fixed;
+	text-align:right; 
+	top: 20px;
+	right: 25px;
+	padding: 15px; 
+	z-index: 100;	
+}
+
+#logo{
+	text-align:left; 
+	margin-left:10px; 
+	top: 5px;
+	position: fixed;
+	z-index: 100;
+}
+.links_div{
+	text-align:left; 
+	margin-left:10px; 
+	margin-top:80px;
+	position: fixed;
+	z-index: 100;
+	}
+.pasek{
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	color: rgb(23, 80, 131);
+	top: 0;
+	font-weight: bold;
+	background-color:#FFFFFF;
+	border-bottom: solid;	
+	border-color: rgb(23, 80, 131);
+	border-width: 4px;
+	height: 80px;
+	opacity: 0.9;
+	border-shadow: 5px 5px 15px #AAA;
+	z-index: 100;
+}
+	
+#tabeleczka{
+	top: 120px;	
+	position: relative;
+	width:98%;
+	margin: 1%;
+}
+
+.naglowek{
+	position:fixed;
+	left: 250px;
+	color: rgb(23, 80, 131);
+	text-align: center;
+	top: 20px;
+	font-size:28pt;
+	font-weight: bold;
+	z-index: 100;
+}
+#add_row {
+	display: none;
+}
+
+td{
+	white-space: nowrap;
+}
+
+.notstarted
+{
+	color: black;
+}
+.working{
+	color: #9932CD;
+}
+.sent{
+	color: #0066ff;
+}
+.acpt{
+	color: #009933;
+}
+.recd{
+	color: #ff0033;
+}
+.cbs{
+	color: #9e9e9e;
+}
+.intrelased{
+	color: #B5A642;
+}
